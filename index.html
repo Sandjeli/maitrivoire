@@ -32,18 +32,23 @@ Materivoire
 </center>
 
 <!-- images principale du site -->
-<img src="https://i.pinimg.com/736x/cc/d5/e5/ccd5e505d0a146fdd6cf1f6f834d707c.jpg" width="1200" height="500">
+<img src="https://i.pinimg.com/736x/cc/d5/e5/ccd5e505d0a146fdd6cf1f6f834d707c.jpg" width="1200" height="500"><br><br><br>
 
 <!-- __________________________________________________________Volet Maison_________________________________________ -->
-
-<span style="color:green;">
+<br>
+<marquee>🏠 🏚️ 🏡 🏙️ ⛪ 🏢 🏩 🏨  🏦  🏥 🏤 🏪  🏘️   🏘️ 🏫  🏬 🏭 🏯 🏤 🏯 🏤 🏠 🏚️ 🏡 🏙️ ⛪ 🏢 🏩 🏨  🏦  🏥 🏤 🏪  🏘️   🏘️ 🏫  🏬 🏭 🏯 🏤 🏯 🏤 </marquee>
+<br>
+<button type="button" onclick="toggleDiv('div1');"><span style="color:green;">
     <center>
         <h1>
-            A-MAISONS DISPONIBLE<br><br><br>
-        </h1>
+            MAISONS DISPONIBLE<br> 
+        </h1></span> Afficher/Masquer
     </center>
-</span>
-<!--_____________________________________________________________________________________________________________________-->
+</button>
+
+<div id="div1" style="display: none;">
+
+<!--_____________________________CONTENU_________________________________________________-->
 
 <!--______________________________ aperçu des biens________________________________________________________________-->
 
@@ -52,7 +57,7 @@ Materivoire
     <img src="https://i.pinimg.com/474x/3e/53/ae/3e53aeea6f6b0b96e02d83186de0e9ba.jpg" width="200" height="200"><br>
 <h3>
     Villa
-</h3><br>
+</h3>
 <p>
     <strong>localisation : </strong> Cité Nana I  sis à Djorogobite 1 <br>
 <strong>Prix : </strong>200 000 000 FCFA 
@@ -154,17 +159,43 @@ Cliquer ci-contre si ce bien vous intéresse :
 <a href="mailto:Ibrahim57gasambe@gmail.com" <button><img src="https://th.bing.com/th/id/R.ae1fbd64a793791023ce79747500f709?rik=z%2bHyd97vQbPpFA&pid=ImgRaw&r=0" width="40" eight="40"></button></a> <br><br><br>
 
     <!--________________________ fin reste aperçu du bien ______________________________________________-->
-    
-    <!--___________________________ Volet Terrain__________________________________________________________________ -->
+ <!--________________________ Masquer volet ______________________________________________-->
+<button type="button" onclick="toggleDiv('div1');"><span style="color:red;">
+Masquer volet Maison ici
+</button>
 
-<span style="color:green;">
+<div id="div1" style="display: none;"> </div>
+
+<script>
+    function toggleDiv() {
+        const divCible = document.getElementById('divCible');
+        divCible.style.display = (divCible.style.display === 'none') ? 'block' : 'none';
+    }
+</script><br><br>
+<!--________________________ Masquer volet ______________________________________________-->
+
+<!--_____________________________fin CONTENU_________________________________________________-->
+
+</div>
+<br>
+<marquee>🗺️  🌏  🗺️  🌍  🌎  ⛰️  🏔️  🏞️  🌏  🏔️  🌏  🏝️  🏕️  🏖️  🗺️  🌏 🏞️  🌏  🏔️  🌏  🏝️ 🗺️  🌏  🗺️  🌍  🌎  ⛰️  🏔️  🏞️  🌏  🏔️  🌏  🏝️  🏕️  🏖️  🗺️  🌏 🏞️  🌏  🏔️  🌏  🏝️</marquee>
+<br>
+<!--___________________________ Volet Terrain__________________________________________________________________ -->
+
+<button type="button" onclick="toggleDiv('div2');"><span style="color:green;">
     <center>
         <h1>
-            B-TERRAINS DISPONIBLE<br><br><br>
-        </h1>
+            TERRAINS DISPONIBLE<br>
+        </h1>Afficher/Masquer
     </center>
 </span>
-    <!--______________________________ premier aperçu du bien________________________________________________________________-->
+
+</button>
+
+<div id="div2" style="display: none;">
+
+<!--_____________________________CONTENU_________________________________________________-->
+ <!--______________________________ premier aperçu du bien________________________________________________________________-->
     
        <h5>ID ANNONCE : B-1</h5>
 <img src="https://i.pinimg.com/736x/a2/f4/40/a2f4402db119bcf8501f713620c4c229.jpg" width="200" eight="200"><br>
@@ -184,15 +215,41 @@ Cliquer ci-contre si ce bien vous intéresse :
 <a href="https://wa.me/message/FDXHW2CXFBEUN1"<button><img src="https://th.bing.com/th/id/OIP.UU5lzm8LnjSTkLT4FLvFlAHaHa?rs=1&pid=ImgDetMain" width="40" eight="40"></button></a>
 
 <a href="mailto:Ibrahim57gasambe@gmail.com" <button><img src="https://th.bing.com/th/id/R.ae1fbd64a793791023ce79747500f709?rik=z%2bHyd97vQbPpFA&pid=ImgRaw&r=0" width="40" eight="40"></button></a> <br><br><br>
-    <!-- _______________________________________Volet Voiture__________________________________________________________ -->
+<!--_____________________________fin CONTENU_________________________________________________-->
+<!--________________________ Masquer volet ______________________________________________-->
+<button type="button" onclick="toggleDiv('div2');"><span style="color:red;">
+    Masquer volet Terrain ici
+    </button>
+    
+    <div id="div2" style="display: none;"> </div>
+    
+    <script>
+        function toggleDiv() {
+            const divCible = document.getElementById('divCible');
+            divCible.style.display = (divCible.style.display === 'none') ? 'block' : 'none';
+        }
+    </script><br><br>
+ <!--________________________ Masquer volet ______________________________________________-->   
+</div>
+<br>
+<marquee>🚗  🚐  🛺  🛻  🚐  🚑  🚒  🚚  🚛  🚜  🚚  🚒  🚑  🚎  🚐  🚌  🚗  🚓  🚕  🛺  🚙  🛻 🚒  🚑  🚎 🚗  🚐  🛺  🛻  🚐  🚑  🚒  🚚  🚛  🚜  🚚  🚒  🚑  🚎  🚐  🚌  🚗  🚓  🚕  🛺  🚙  🛻 🚒  🚑  🚎</marquee>
+<br>
+<!--________________________ volet Voiture ______________________________________________-->   
 
-<span style="color:green;">
+<button type="button" onclick="toggleDiv('div3');">
+  <span style="color:green;">
     <center>
         <h1>
-            C-VOITURES DISPONIBLE<br><br><br>
+            VOITURES DISPONIBLE<br>
         </h1>
+        Afficher/Masquer
     </center>
-</span>
+  </span>
+</button>
+
+<div id="div3" style="display: none;">
+
+<!--______________________CONTENU______________________________________________________________-->
 
     <h5>ID ANNONCE : C-1</h5>
 
@@ -213,6 +270,29 @@ Cliquer ci-contre si ce bien vous intéresse :
 <a href="https://wa.me/message/FDXHW2CXFBEUN1"<button><img src="https://th.bing.com/th/id/OIP.UU5lzm8LnjSTkLT4FLvFlAHaHa?rs=1&pid=ImgDetMain" width="40" eight="40"></button></a>
 
 <a href="mailto:Ibrahim57gasambe@gmail.com" <button><img src="https://th.bing.com/th/id/R.ae1fbd64a793791023ce79747500f709?rik=z%2bHyd97vQbPpFA&pid=ImgRaw&r=0" width="40" eight="40"></button></a> <br><br><br>
+<!--______________________FIN CONTENU______________________________________________________________-->
+<!--________________________ Masquer volet ______________________________________________-->
+<button type="button" onclick="toggleDiv('div3');"><span style="color:red;">
+    Masquer volet Voiture ici
+    </button>
+    
+    <div id="div3" style="display: none;"> </div>
+    
+    <script>
+        function toggleDiv() {
+            const divCible = document.getElementById('divCible');
+            divCible.style.display = (divCible.style.display === 'none') ? 'block' : 'none';
+        }
+    </script><br>
+ <!--________________________ Masquer volet ______________________________________________-->   
+</div>
+
+<script>
+    function toggleDiv(id) {
+        const divCible = document.getElementById(id);
+        divCible.style.display = (divCible.style.display === 'none') ? 'block' : 'none';
+    }
+</script><br><br>
 
 
 
