@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 
@@ -16,13 +17,67 @@
                 </h1>
                 <title>materivoire</title>
 
+    
+<!--_______________________________________________format M______________________________-->
+  <style>
+        /* Styles spécifiques pour les écrans larges */
+        @media screen and (min-width: 768px) {
+            img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Pour les appareils mobiles */
+    /* Autres styles */
+}
+
+body {
+    font-size: 16px; /* Taille de base */
+}
+
+h1 {
+    font-size: 2rem; /* 32px sur tous les écrans */
+}
+
+
+        }
+
+        /* Styles spécifiques pour les écrans étroits (mobiles) */
+        @media screen and (max-width: 767px) {
+            img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Pour les appareils mobiles */
+    /* Autres styles */
+}
+
+body {
+    font-size: 16px; /* Taille de base */
+}
+
+h1 {
+    font-size: 2rem; /* 32px sur tous les écrans */
+}
+
+
+        }
+    </style>
+<!--_______________________________________________fin format M______________________________-->
+
+
                 <!--__________________Positionnement volet en bas____________________-->
                 <style>
                     .positioned {
                         position: relative; /* Positionnement relatif */
-                        top: 80px; /* Décalage de 20 pixels vers le bas */
-                        left: 550px; /* Décalage de 50 pixels vers la droite /*
-                        background-color:white
+                        top: 65px; /* Décalage de 20 pixels vers le bas */
+                        left: 520px; /* Décalage de 50 pixels vers la droite */
+                        background-color:
                     }
                 </style>
             <!--__________________Fin Positionnement volet en bas____________________-->
@@ -181,7 +236,7 @@ VENTE-VILLA
 </h3>
 <p>
 <strong>localisation : </strong> GRAND BASSAM_MODESTE<br>
-<strong>Prix : </strong>270,000,000 FCFA 
+<strong>Prix : </strong>270,000,000 FCFA 
 </p>
 
 <button type="button" onclick="toggleDiv('div5');">Plus d'informations sur ce bien</button>
@@ -364,7 +419,7 @@ cliquer ci-dessous pour voir la vidéo du site</h6><br>
 </p>
 <button type="button" onclick="toggleDiv('div4');">Plus d'informations sur ce bien</button>
 
-<div id="div4" style="display: none;">TRES BELLE OPPORTUNITÉ À NE PAS RATER À ASSINIE_ASSOUINDE TERRAIN en bordure du Canal, à 800m de la mer et 400m de la nouvelle autoroute Bassam-Assinie.<br>TERRAIN situé dans une zone touristique , près d'un complexe hôtelier déjà opérationnel et d'une mini cité de duplex haut standing.<br>Superficie 600 m² (20/30)  Document ACD + CMPF  Prix cash : 35.000.000 F  Prix Crédit : 45.000.000 soit 25.000.000 F+ 5.000.000 F x 4 mois.<br>VRAIE AUBAINE POUR CETTE ZONE !!!<br>NB : OPPORTUNITÉ POUR UNE RÉSIDENCE PRIVÉE DE HAUT STANDING AVEC VUE SUR MER OU UN COMPLEXE HÔTELIER.</div>
+<div id="div4" style="display: none;">TRES BELLE OPPORTUNITÉ À NE PAS RATER À ASSINIE_ASSOUINDE TERRAIN en bordure du Canal, à 800m de la mer et 400m de la nouvelle autoroute Bassam-Assinie.<br>TERRAIN situé dans une zone touristique , près d'un complexe hôtelier déjà opérationnel et d'une mini cité de duplex haut standing.<br>Superficie 600 m² (20/30)  Document ACD + CMPF  Prix cash : 35.000.000 F  Prix Crédit : 45.000.000 soit 25.000.000 F+ 5.000.000 F x 4 mois.<br>VRAIE AUBAINE POUR CETTE ZONE !!!<br>NB : OPPORTUNITÉ POUR UNE RÉSIDENCE PRIVÉE DE HAUT STANDING AVEC VUE SUR MER OU UN COMPLEXE HÔTELIER.</div>
 
 <script>
     function toggleDiv(id) {
